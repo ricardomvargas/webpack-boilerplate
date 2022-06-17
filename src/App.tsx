@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage/HomePage';
 
 const App: React.FC = () => (
   <>
-    <HomePage pageTitle='This is the Home page!' />
+    <HomePage pageTitle='Webpack Boilerplate' />
   </>
 );
 
