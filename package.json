@@ -1,21 +1,29 @@
 {
     "name": "webpackboilerplate",
     "version": "1.0.0",
+    "author": "Ricardo Moura Vargas",
+    "license": "ISC",
     "description": "Base web project to create applications with webpack and React.",
     "main": "index.js",
     "scripts": {
         "dev": "webpack serve",
         "build": "webpack",
-        "test": "jest"
+        "test": "jest --watch"
     },
     "keywords": [
         "webpack",
         "react",
         "boilerplate "
     ],
-    "author": "Ricardo Moura Vargas",
-    "license": "ISC",
+    "jest": {
+        "moduleNameMapper": {
+            "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+            "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+        },
+        "testEnvironment": "jsdom"
+    },
     "dependencies": {
+        "@types/jest": "^28.1.3",
         "react": "^18.0.0",
         "react-dom": "^18.0.0"
     },
@@ -33,6 +41,7 @@
         "css-loader": "^6.7.1",
         "html-webpack-plugin": "^5.5.0",
         "jest": "^28.1.1",
+        "jest-environment-jsdom": "^28.1.1",
         "style-loader": "^3.3.1",
         "typescript": "^4.6.3",
         "webpack": "^5.71.0",
