@@ -11,7 +11,3 @@ test('Check if match with snapshot', () => {
     );
     expect(simpleComponent).toMatchSnapshot();
 });
-
-test('SimpleComponent dummy teste', () => {
-    return undefined;
-});
