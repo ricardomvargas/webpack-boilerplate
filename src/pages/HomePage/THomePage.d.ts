@@ -1,3 +1,3 @@
 export interface THomePage {
-  pageTitle: string;
+    pageTitle: string;
 }
