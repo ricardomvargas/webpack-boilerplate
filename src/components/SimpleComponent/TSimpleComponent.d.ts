@@ -1,3 +1,3 @@
 export interface TSimpleComponent {
-  colorClass: 'title-black' | 'title-blue' | 'title-red';
+    colorClass: 'title-black' | 'title-blue' | 'title-red';
 }
