@@ -17,6 +17,6 @@ Base web project to create applications with webpack and React.
 
 ### Installing and running the app
 
-To install dependecies: npm install
-
-To execute the project: npm run dev (it runs on port 3000)
+- Install dependecies: npm install
+- Execute the project: npm run dev (it runs on port 3000)
+- Execute tests: npm run test
