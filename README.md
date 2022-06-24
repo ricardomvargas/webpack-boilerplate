@@ -9,6 +9,8 @@ Base web project to create applications with webpack and React.
 - [React.js] (https://reactjs.org/)
 - [typescript] (https://www.typescriptlang.org/)
 - [webpack] (https://webpack.js.org/)
+- [jest] (https://jestjs.io/)
+- [testing-library] (https://testing-library.com/)
 
 ## Getting Started
 
