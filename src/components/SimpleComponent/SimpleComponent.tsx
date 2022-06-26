@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { TSimpleComponent } from './TSimpleComponent';
+import TSimpleComponent from './TSimpleComponent';
 
 import './SimpleComponent.css';
 
