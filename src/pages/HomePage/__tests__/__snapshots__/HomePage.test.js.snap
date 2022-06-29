@@ -5,33 +5,118 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <ul>
-        <li>
-          <a
-            href="/"
-          >
-            Home
-          </a>
-        </li>
-        <li>
-          <a
-            href="/form-sample"
-          >
-            Form Sample
-          </a>
-        </li>
-      </ul>
-      <article>
+      <nav
+        class="topbar"
+      >
+        <ul
+          class="simple-menu"
+        >
+          <li>
+            <a
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/form-sample"
+            >
+              Form Sample
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <article
+        class="home-page"
+      >
         <h1>
           Test Home Page
         </h1>
-        <p>
-          This is a startup project to create web applications with webpack, React, Typescript, Jest and React testing library
+        <p
+          class="project-intro"
+        >
+          Base web project to create applications with front end applications.
         </p>
-        <p>
-          Status: In development
-        </p>
+        <section
+          class="tools-block"
+        >
+          <a
+            href="https://webpack.js.org/"
+            target="_blank"
+            title="Webpack"
+          >
+            <img
+              alt="webpack"
+              src="/assets/images/webpack-icon.svg"
+            />
+          </a>
+          <a
+            href="https://reactjs.org/"
+            target="_blank"
+            title="ReactJS"
+          >
+            <img
+              alt="reactjs"
+              src="/assets/images/react-icon.svg"
+            />
+          </a>
+          <a
+            href="https://reactrouter.com/"
+            target="_blank"
+            title="React Router"
+          >
+            <img
+              alt="react-route"
+              src="/assets/images/react-router-icon.svg"
+            />
+          </a>
+          <a
+            href="https://www.typescriptlang.org/"
+            target="_blank"
+            title="Typescript"
+          >
+            <img
+              alt="typescript"
+              src="/assets/images/typescript-icon.svg"
+            />
+          </a>
+          <a
+            href="https://jestjs.io/"
+            target="_blank"
+            title="Jest"
+          >
+            <img
+              alt="jest"
+              src="/assets/images/jest-icon.svg"
+            />
+          </a>
+          <a
+            href="https://testing-library.com/"
+            target="_blank"
+            title="Testing Library"
+          >
+            <img
+              alt="testing-library"
+              src="/assets/images/testing-library-icon.svg"
+            />
+          </a>
+        </section>
         <section>
+          <h2>
+            Getting Started
+          </h2>
+          <ul>
+            <li>
+              Installing deppedencies: npm install
+            </li>
+            <li>
+              Executing the project: npm run dev (it runs on port 3000)
+            </li>
+            <li>
+              Executing tests: npm run test
+            </li>
+          </ul>
           <h2>
             What's next?
           </h2>
@@ -50,52 +135,122 @@ Object {
             </li>
           </ul>
         </section>
-        <section>
-          <h3>
-            First component sample:
-          </h3>
-          <h2
-            class="title-red"
-          >
-            I'm a Simple Component!
-          </h2>
-        </section>
-        <a
-          href="/form-sample"
-        >
-          Go To: form page sample
-        </a>
       </article>
     </div>
   </body>,
   "container": <div>
-    <ul>
-      <li>
-        <a
-          href="/"
-        >
-          Home
-        </a>
-      </li>
-      <li>
-        <a
-          href="/form-sample"
-        >
-          Form Sample
-        </a>
-      </li>
-    </ul>
-    <article>
+    <nav
+      class="topbar"
+    >
+      <ul
+        class="simple-menu"
+      >
+        <li>
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/form-sample"
+          >
+            Form Sample
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <article
+      class="home-page"
+    >
       <h1>
         Test Home Page
       </h1>
-      <p>
-        This is a startup project to create web applications with webpack, React, Typescript, Jest and React testing library
+      <p
+        class="project-intro"
+      >
+        Base web project to create applications with front end applications.
       </p>
-      <p>
-        Status: In development
-      </p>
+      <section
+        class="tools-block"
+      >
+        <a
+          href="https://webpack.js.org/"
+          target="_blank"
+          title="Webpack"
+        >
+          <img
+            alt="webpack"
+            src="/assets/images/webpack-icon.svg"
+          />
+        </a>
+        <a
+          href="https://reactjs.org/"
+          target="_blank"
+          title="ReactJS"
+        >
+          <img
+            alt="reactjs"
+            src="/assets/images/react-icon.svg"
+          />
+        </a>
+        <a
+          href="https://reactrouter.com/"
+          target="_blank"
+          title="React Router"
+        >
+          <img
+            alt="react-route"
+            src="/assets/images/react-router-icon.svg"
+          />
+        </a>
+        <a
+          href="https://www.typescriptlang.org/"
+          target="_blank"
+          title="Typescript"
+        >
+          <img
+            alt="typescript"
+            src="/assets/images/typescript-icon.svg"
+          />
+        </a>
+        <a
+          href="https://jestjs.io/"
+          target="_blank"
+          title="Jest"
+        >
+          <img
+            alt="jest"
+            src="/assets/images/jest-icon.svg"
+          />
+        </a>
+        <a
+          href="https://testing-library.com/"
+          target="_blank"
+          title="Testing Library"
+        >
+          <img
+            alt="testing-library"
+            src="/assets/images/testing-library-icon.svg"
+          />
+        </a>
+      </section>
       <section>
+        <h2>
+          Getting Started
+        </h2>
+        <ul>
+          <li>
+            Installing deppedencies: npm install
+          </li>
+          <li>
+            Executing the project: npm run dev (it runs on port 3000)
+          </li>
+          <li>
+            Executing tests: npm run test
+          </li>
+        </ul>
         <h2>
           What's next?
         </h2>
@@ -114,21 +269,6 @@ Object {
           </li>
         </ul>
       </section>
-      <section>
-        <h3>
-          First component sample:
-        </h3>
-        <h2
-          class="title-red"
-        >
-          I'm a Simple Component!
-        </h2>
-      </section>
-      <a
-        href="/form-sample"
-      >
-        Go To: form page sample
-      </a>
     </article>
   </div>,
   "debug": [Function],

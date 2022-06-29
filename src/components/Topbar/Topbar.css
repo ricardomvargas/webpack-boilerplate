@@ -1,0 +1,5 @@
+.topbar {
+    min-height: 60px;
+    background-color: #3e3e45;
+    display: flex;
+}

@@ -5,10 +5,12 @@ import TSimpleMenu from './TSimpleMenu';
 
 import { createListItemKey } from '../../utils/utils';
 
+import './SimpleMenu.css';
+
 const keys = createListItemKey();
 
 const SimpleMenu: React.FC<TSimpleMenu> = ({ links }) => (
-    <ul>
+    <ul className='simple-menu'>
         {links?.map((l) => (
             <li key={keys.next().value ?? 1}>
                 <Link to={l.destination}>{l.title}</Link>

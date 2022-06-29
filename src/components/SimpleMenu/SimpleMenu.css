@@ -1,0 +1,22 @@
+.simple-menu {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    min-width: 1036px;
+}
+
+.simple-menu li {
+    background-color: #54545a;
+    margin-right: 3px;
+    height: 60px;
+}
+
+.simple-menu li a {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 18px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
