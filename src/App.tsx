@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import FormSample from './pages/FormSamplePage/FormSamplePage';
 
+import './styles/Main.css';
+
 const App: React.FC = () => (
     <BrowserRouter>
         <Routes>

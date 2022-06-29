@@ -5,6 +5,34 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <nav
+        class="topbar"
+      >
+        <ul
+          class="simple-menu"
+        >
+          <li>
+            <a
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/form-sample"
+            >
+              Form Sample
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="topbar"
+    >
       <ul
         class="simple-menu"
       >
@@ -15,21 +43,15 @@ Object {
             Home
           </a>
         </li>
+        <li>
+          <a
+            href="/form-sample"
+          >
+            Form Sample
+          </a>
+        </li>
       </ul>
-    </div>
-  </body>,
-  "container": <div>
-    <ul
-      class="simple-menu"
-    >
-      <li>
-        <a
-          href="/"
-        >
-          Home
-        </a>
-      </li>
-    </ul>
+    </nav>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

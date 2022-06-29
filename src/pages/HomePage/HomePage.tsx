@@ -3,27 +3,74 @@ import { Link } from 'react-router-dom';
 
 import { THomePage } from './THomePage';
 
-import SimpleComponent from '../../components/SimpleComponent/SimpleComponent';
-import SimpleMenu from '../../components/SimpleMenu/SimpleMenu';
+import Topbar from '../../components/Topbar/Topbar';
 
 import './HomePage.css';
 
-const links = [
-    { title: 'Home', destination: '/' },
-    { title: 'Form Sample', destination: '/form-sample' },
-];
-
 const Home: React.FC<THomePage> = ({ pageTitle }) => (
     <>
-        <SimpleMenu links={links} />
-        <article>
+        <Topbar />
+        <article className='home-page'>
             <h1>{pageTitle}</h1>
-            <p>
-                This is a startup project to create web applications with
-                webpack, React, Typescript, Jest and React testing library
+            <p className='project-intro'>
+                Base web project to create applications with front end
+                applications.
             </p>
-            <p>Status: In development</p>
+            <section className='tools-block'>
+                <a
+                    href='https://webpack.js.org/'
+                    target='_blank'
+                    title='Webpack'
+                >
+                    <img src='/assets/images/webpack-icon.svg' alt='webpack' />
+                </a>
+                <a href='https://reactjs.org/' target='_blank' title='ReactJS'>
+                    <img src='/assets/images/react-icon.svg' alt='reactjs' />
+                </a>
+                <a
+                    href='https://reactrouter.com/'
+                    target='_blank'
+                    title='React Router'
+                >
+                    <img
+                        src='/assets/images/react-router-icon.svg'
+                        alt='react-route'
+                    />
+                </a>
+                <a
+                    href='https://www.typescriptlang.org/'
+                    target='_blank'
+                    title='Typescript'
+                >
+                    <img
+                        src='/assets/images/typescript-icon.svg'
+                        alt='typescript'
+                    />
+                </a>
+                <a href='https://jestjs.io/' target='_blank' title='Jest'>
+                    <img src='/assets/images/jest-icon.svg' alt='jest' />
+                </a>
+                <a
+                    href='https://testing-library.com/'
+                    target='_blank'
+                    title='Testing Library'
+                >
+                    <img
+                        src='/assets/images/testing-library-icon.svg'
+                        alt='testing-library'
+                    />
+                </a>
+            </section>
             <section>
+                <h2>Getting Started</h2>
+                <ul>
+                    <li>Installing deppedencies: npm install</li>
+                    <li>
+                        Executing the project: npm run dev (it runs on port
+                        3000)
+                    </li>
+                    <li>Executing tests: npm run test</li>
+                </ul>
                 <h2>What's next?</h2>
                 <ul>
                     <li>Layout design</li>
@@ -32,11 +79,6 @@ const Home: React.FC<THomePage> = ({ pageTitle }) => (
                     <li>Test samples and guidelines</li>
                 </ul>
             </section>
-            <section>
-                <h3>First component sample:</h3>
-                <SimpleComponent colorClass='title-red' />
-            </section>
-            <Link to='form-sample'>Go To: form page sample</Link>
         </article>
     </>
 );

@@ -5,7 +5,42 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <ul>
+      <nav
+        class="topbar"
+      >
+        <ul
+          class="simple-menu"
+        >
+          <li>
+            <a
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/form-sample"
+            >
+              Form Sample
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <h1>
+          Test Form Sample Page
+        </h1>
+      </article>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="topbar"
+    >
+      <ul
+        class="simple-menu"
+      >
         <li>
           <a
             href="/"
@@ -21,30 +56,7 @@ Object {
           </a>
         </li>
       </ul>
-      <article>
-        <h1>
-          Test Form Sample Page
-        </h1>
-      </article>
-    </div>
-  </body>,
-  "container": <div>
-    <ul>
-      <li>
-        <a
-          href="/"
-        >
-          Home
-        </a>
-      </li>
-      <li>
-        <a
-          href="/form-sample"
-        >
-          Form Sample
-        </a>
-      </li>
-    </ul>
+    </nav>
     <article>
       <h1>
         Test Form Sample Page
